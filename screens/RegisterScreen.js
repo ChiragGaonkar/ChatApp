@@ -16,7 +16,7 @@ const RegisterScreen = ({navigation}) => {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            headerStyle:{backgroundColor:'tomato'},
+            headerStyle:{backgroundColor:'dodgerblue'},
             headerBackTitle:"Back"
         });
     },[navigation]); 
@@ -74,7 +74,7 @@ const RegisterScreen = ({navigation}) => {
                 />
             </View>
             <Button 
-                buttonStyle={{backgroundColor: "tomato"}}
+                buttonStyle={{backgroundColor: "dodgerblue"}}
                 // To change the color of button from react native elements.           
                 containerStyle={styles.button}
                 raised 
